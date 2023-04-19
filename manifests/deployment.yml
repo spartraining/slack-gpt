@@ -16,7 +16,7 @@ spec:
       containers:
       - name: slack-gpt
         imagePullPolicy: Always
-        image: ghcr.io/pyama86/slack-gpt:sha-de66c25
+        image: ghcr.io/promising-lamp-247819/slack-gpt:sha-de66c25
         ports:
         - containerPort: 3000
         livenessProbe:
